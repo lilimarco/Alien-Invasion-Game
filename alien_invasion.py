@@ -19,6 +19,7 @@ def run_game():
     while True:
         gf.check_events(ai_settings, screen, ship, bullets)
         ship.update()
+        gf.update_bullets(bullets)
         gf.update_screen(ai_settings, screen, ship, bullets)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
