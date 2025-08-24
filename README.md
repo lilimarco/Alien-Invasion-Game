@@ -1,3 +1,4 @@
+This is the code that i used when learnig how to use python for game creation 
 From the book 
 PYTHON CRASH COURSE
 A hands-on, Project-based
